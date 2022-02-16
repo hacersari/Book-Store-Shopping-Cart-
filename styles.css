@@ -1,0 +1,99 @@
+/**
+ * Hacer Aynur Sari
+ * Date: 11/19/21
+ * Section: CSE 154 AA
+ *
+ * This is CP4, this is the second draft of the shopping website. I used
+ * JS HTML AND CSS to implement this website. This is the CSS that I used in every
+ * page of this project.
+ */
+body {
+  background-color: rgb(238, 234, 215);
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: block;
+}
+
+.inside-header {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.logo-table {
+  height: 100%;
+  display: table;
+  float: right;
+}
+
+.logo-table h1 {
+  font-size: 35px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 100;
+}
+
+.logo-table h1 span {
+  font-weight: 900;
+}
+
+.navigation {
+  float: left;
+  height: 100%;
+}
+
+.navigation li {
+  float: left;
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  padding: 0px 20px;
+  font-size: 30px;
+}
+
+.navigation li a {
+  display: block;
+  padding: 8px;
+  color: gray;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#products-box {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.product-container {
+  display: flex;
+  padding: 20px;
+  border: solid;
+  margin: 20px;
+  text-align: center;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+#shopping-cart {
+  border: solid;
+  position: absolute;
+  bottom: 0;
+}
